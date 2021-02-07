@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
@@ -7,118 +8,136 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
     <style>
-        *{
+        * {
             margin: 0;
             padding: 0;
         }
-        .button{
+
+        .button {
 
             margin: 1%;
-            background-color:rgb(198, 138, 255);
+            background-color: rgb(198, 138, 255);
             padding: 1%;
-            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            color:rgb(60, 77, 231);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: rgb(60, 77, 231);
             border-radius: 25%;
             border-style: groove;
             border-color: rgb(144, 35, 246);
             border-width: 3px;
         }
+
         .button:hover {
             color: rgb(0, 0, 0);
-            cursor: pointer;          
+            cursor: pointer;
         }
-        .button:visited{
+
+        .button:visited {
             background-color: blanchedalmond;
         }
-        .myHeading{
-            text-align:center;
+
+        .myHeading {
+            text-align: center;
             font-family: Rubik;
-            background-color: rgb(185,153,215);
+            background-color: rgb(185, 153, 215);
             padding: 2.5%;
             margin: 2.5%;
             font-size: 3em;
         }
-        .myHeading2{
+
+        .myHeading2 {
             padding: 2.5%;
             text-align: left;
         }
-        .myForm{
+
+        .myForm {
             margin: 2.5%;
             border: 5px solid rgb(246, 255, 193);
             padding: 5%;
-            background-color: rgb(145,244,230);
+            background-color: rgb(145, 244, 230);
             font-family: Rubik;
         }
-        #myImg{
-            display:block;
+
+        #myImg {
+            display: block;
             margin-left: auto;
             margin-right: auto;
             padding-left: auto;
             padding-right: auto;
-            height:100px;
+            height: 100px;
         }
-        #myBody{
+
+        #myBody {
 
             background-color: rgb(241, 129, 226);
         }
-        input{
+
+        input {
             margin: 4px 10px;
         }
-        #mySpan{
-            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+        #mySpan {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             font-size: 15px;
             font-weight: 2px;
         }
     </style>
 </head>
-<body id = "myBody">
-    <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google.com" id = "myImg">
-    
-    <div>
-     <h1 class="myHeading">We're Hiring!</h1>
-     <h3 class="myHeading2">Please fill out the form:</h3>
-    <form action="" class = "myForm">
-        <div>
-            Name:<input type="text" placeholder="Full Name here">
-        </div>
-        <br>
-        <div>
-            Mobile Number:<input type="number" name="myNumber" id="" class="" placeholder="10 digit number">
-        </div>
-        <br>
-        <div>
-            Email ID:<input type="email" name="myEmail" id="" class="" placeholder="youremail@example.com">
-        </div>
-        <br>
-        <div>
-            Why should we hire you? <br>
-            Please elaborate. <br>
-            <span id="mySpan">
-                Kindly increase/decrease the area given below through its bottom right corner to suit your needs.
-            </span>
+
+<body id="myBody">
+    <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google.com"
+        id="myImg">
+
+    <header>
+        <h1 class="myHeading">We're Hiring!</h1>
+    </header>
+
+    <section>
+        <h3 class="myHeading2">Please fill out the form:</h3>
+
+        <form action="" class="myForm">
+            <div>
+                Name:<input type="text" placeholder="Full Name here">
+            </div>
             <br>
-            <textarea name="" id="" rows="10" cols="35" placeholder="Word limit: 50"></textarea>
-        </div>
-        <br>
-        <label for="wkExp">Years of Work Experience:</label>
-        <br>
-        <select name="Exp" id="WkExp">
-            <option value="FillThis">--Please select an option--</option>
-            <option value="1yr">1 Year</option>
-            <option value="2yr">2 Years</option>
-            <option value="3-5yr">3-5 Years</option>
-            <option value="5-7yr">5-7 Years</option>
-            <option value="7-9yr">7-9 Years</option>
-            <option value="10yr">10 Years or more</option>
-        </select>
-        <div>
-            <input type="submit" value="Submit" class="button">
-            <input type="reset" value="Reset" class="button">
-        </div>
-    </form>
+            <div>
+                Mobile Number:<input type="number" name="myNumber" id="" class="" placeholder="10 digit number">
+            </div>
+            <br>
+            <div>
+                Email ID:<input type="email" name="myEmail" id="" class="" placeholder="youremail@example.com">
+            </div>
+            <br>
+            <div>
+                Why should we hire you? <br>
+                Please elaborate. <br>
+                <span id="mySpan">
+                    Kindly increase/decrease the area given below through its bottom right corner to suit your needs.
+                </span>
+                <br>
+                <textarea name="" id="" rows="10" cols="35" placeholder="Word limit: 50"></textarea>
+            </div>
+            <br>
+            <label for="wkExp">Years of Work Experience:</label>
+            <br>
+            <select name="Exp" id="WkExp">
+                <option value="FillThis">--Please select an option--</option>
+                <option value="1yr">1 Year</option>
+                <option value="2yr">2 Years</option>
+                <option value="3-5yr">3-5 Years</option>
+                <option value="5-7yr">5-7 Years</option>
+                <option value="7-9yr">7-9 Years</option>
+                <option value="10yr">10 Years or more</option>
+            </select>
+            <div>
+                <input type="submit" value="Submit" class="button">
+                <input type="reset" value="Reset" class="button">
+            </div>
+        </form>
+    </section>
 
 
 
-     
+
 </body>
+
 </html>
