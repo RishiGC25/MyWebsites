@@ -3,7 +3,7 @@
     margin: auto;
     height: 40vw;
     width: 40vw; 
-    background: url(clock.png) no-repeat;
+    background: url(clock.jpg) no-repeat;
     background-size: 100%;
 }
 
@@ -13,25 +13,24 @@
     border-radius: 10px; 
     transform-origin: bottom;
 }
-#hour{
+#hour {
     width: 1.8%;
-    height: 25%;
-    top: 25%;
-    left: 48.85%;
-    opacity: 0.8;  
+    height: 27%;
+    top: 23.4%;
+    left: 49.1%;
+    /* opacity: 0.8; */
 }
-#minute{
-    width: 1.6%;
-    height: 30%;
-    top: 19%;
-    left: 48.9%;
-    opacity: 0.8;  
-}
-#second{
-    width: 1%;
-    height: 40%;
-    top: 9%;
+#minute {
+    width: 1.5%;
+    height: 29.9%;
+    top: 20%;
     left: 49.25%;
-    opacity: 0.8; 
-    
+    /* opacity: 0.8;  */
+}
+#second {
+    width: 0.8%;
+    height: 34%;
+    top: 16%;
+    left: 49.55%;
+    /* opacity: 0.8; */
 }
